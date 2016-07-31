@@ -210,7 +210,7 @@
 			if (!Tools.prefs('noselfhighlight') && app.user.nameRegExp) {
 				if (app.user.nameRegExp.test(message)) return true;
 			}
-			return ((highlights.length) > 0 && app.highlightRegExp.test(message)) || ((roomHighlights.length) > 0  && app.roomHighlightRegExp[thisroom].test(message));
+			return ((highlights.length > 0) && app.highlightRegExp.test(message)) || ((roomHighlights.length) > 0  && app.roomHighlightRegExp[thisroom].test(message));
 		},
 		updateHighlightRegExp: function (highlights) {
 			// Enforce boundary for match sides, if a letter on match side is
