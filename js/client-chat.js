@@ -743,7 +743,7 @@
 						}
 					} else if (target === 'roomdelete') {
 						Tools.prefs(thisroom, false);
-						this.add("All highlights cleared" + textending);
+						this.add("Highlights cleared" + textending);
 					} else if (target === 'roomshow' || target === 'roomlist') {
 						if (roomHighlights.length > 0) {
 							this.add("Current highlight list: " + roomHighlights.join(", ") + textending);
