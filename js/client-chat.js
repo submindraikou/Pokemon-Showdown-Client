@@ -1,5 +1,5 @@
 (function ($) {
-//w
+
 	var ConsoleRoom = this.ConsoleRoom = Room.extend({
 		type: 'chat',
 		title: '',
